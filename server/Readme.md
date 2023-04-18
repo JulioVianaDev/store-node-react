@@ -7,3 +7,7 @@
 ## 2
 
 ```npm i nodemon --save-dev```
+
+## 3
+
+```npm i cors```
