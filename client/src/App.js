@@ -1,6 +1,7 @@
 import './App.css';
 import Titulo from './components/Titulo';
 import { useState } from 'react';
+import { Botao, DivTasks, Input,Task } from './styles/styles';
 function App() {
   const [tarefas,setTarefas] = useState([]);
   const [newTask,setNewTask] = useState('');
@@ -12,19 +13,21 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <>
       <Titulo/>
-      <input
-        value={newTask}
-        onChange={(e)=>setNewTask(e.target.value)}
-      />
-      <button onClick={addTarefa}>Cadastrar</button>
+      <DivTasks>
+        <Input
+          value={newTask}
+          onChange={(e)=>setNewTask(e.target.value)}
+          />
+        <Botao onClick={addTarefa}>Cadastrar</Botao>
+      </DivTasks>
       <div>
         {
-          tarefas.map(t=><p key={t}> {t} </p>)
+          tarefas.map(t=><Task key={t}> {t} </Task>)
         }
       </div>
-    </div>
+    </>
   );
 }
 
