@@ -19,3 +19,7 @@
 ## 5
 
 ```npm i dotenv```
+
+## 6
+
+```npm i multer```
