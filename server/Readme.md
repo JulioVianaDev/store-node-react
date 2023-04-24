@@ -27,3 +27,7 @@
 ## 7
 
 ```npm i bcrypt```
+
+## 8
+
+```npm i jsonwebtoken```
