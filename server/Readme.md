@@ -23,3 +23,7 @@
 ## 6
 
 ```npm i multer```
+
+## 7
+
+```npm i bcrypt```
