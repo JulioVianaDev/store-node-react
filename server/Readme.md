@@ -31,3 +31,8 @@
 ## 8
 
 ```npm i jsonwebtoken```
+
+## 8
+
+```npm i image-to-base64```
+
