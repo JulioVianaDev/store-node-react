@@ -4,3 +4,5 @@ const AuthRegisterUserController = require("../controllers/AuthRegisterUserContr
 
 router.get("/",AuthRegisterUserController.init)
 router.post("/auth/register/user",AuthRegisterUserController.RegisterUser)
+
+module.exports = router;
